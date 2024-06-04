@@ -28,7 +28,8 @@ require("lazy").setup({
         version = "*",
         dependencies = 'nvim-tree/nvim-web-devicons'
     }, {'lewis6991/gitsigns.nvim'}, {'terrortylor/nvim-comment'},
-    {'akinsho/toggleterm.nvim', version = "*", config = true}, {
+       { 'akinsho/toggleterm.nvim', version = "*", config = true}, {
+    
         "folke/which-key.nvim",
         event = "VeryLazy",
         init = function()
